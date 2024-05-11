@@ -1,0 +1,679 @@
+/* barlow-100 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/barlow-v12-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* barlow-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/barlow-v12-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* barlow-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/barlow-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* barlow-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/barlow-v12-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* barlow-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/barlow-v12-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* fraunces-100 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/fraunces-v31-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* fraunces-200 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/fraunces-v31-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* fraunces-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/fraunces-v31-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* fraunces-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/fraunces-v31-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* fraunces-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/fraunces-v31-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* fraunces-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/fraunces-v31-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* fraunces-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/fraunces-v31-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  *{
+      padding: 0;
+      box-sizing: border-box;
+  }
+  /* body{
+      width: 1250px;
+      margin: 0;
+      padding: 0;
+  } */
+  .container{
+      width: 1100px;
+      padding: 0 auto;
+      margin: 0 auto;
+  }
+  .header__link{
+    color: #83888F;
+    font-family: 'Barlow',sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    text-decoration: none;
+  }
+  .header__list{
+      list-style: none;
+      display: flex;
+      width: 280px;
+      justify-content: space-between;
+  }
+  .header{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .header__link:hover{
+      color: black;
+  }
+  /* -----------------------------------------------------------------------hero---------------------------------------------------- */
+  .hero{
+      background-image:url(../image/backimg.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      border-radius:20px;
+      padding-top: 90px;
+      padding-bottom: 80px;
+  }
+  .hero__tittle{
+    color: #FEFCF7;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+    width: 600px;
+  }
+  .hero__text{
+    color: #FEFCF7;
+    font-family: 'Barlow',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 450px;
+    opacity: 0.8;
+    line-height: 26px;
+    padding-bottom: 50px;
+  }
+  .hero__btn{
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    width: 217px;
+    height: 56px;
+    border-radius: 6px;
+    background: #0E8784;
+  }
+  .hero__btn:hover{
+      background-color: rgb(182, 177, 177);
+      color: black;
+  }
+  /* ------------------------------------------------------------------------main---------------------------------------------------------- */
+  .main__tittle{
+      padding-top: 50px;
+    color: #333D4B;
+    text-align: center;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+  }
+  .main__text{
+    color: #333D4B;
+    text-align: center;
+    font-family: 'Barlow',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 250px;
+  }
+  .main__list{
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+  }
+  .main__container{
+      padding-top: 100px;
+      padding-bottom: 100px;
+  }
+  .main__item:hover{
+      opacity: 0.5;
+  }
+  /* ------------------------------------------------------------------------------page---------------------------------------------------- */
+  .page__tittle{
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+  }
+  .page__text{
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Barlow',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.8;
+  }
+  .page{
+      background-color: #333D4B;
+      position: relative;
+      height: 550px;
+      border-radius: 10px;
+  }
+  .page__item{
+    border-radius: 8px;
+    background: #0E8784;
+    width: 340px;
+    height: 370px;
+    text-align: center;
+  }
+  .page__suptittle{
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  .page__suptext{
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Barlow',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .page__list{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    position: absolute;
+    top: 300px;
+  }
+  .page__box{
+    padding-top: 80px;
+  }
+  .page__image{
+    margin-top: 60px;
+  }
+  .page__item:hover{
+    background-color: rgb(97, 147, 212);
+  }
+  /* --------------------------------------------------------------------------------service------------------------------------------- */
+  .service__tittle{
+    color: #83888F;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    padding-bottom: 50px;
+  }
+  .service__container{
+    padding-top: 250px;
+    padding-bottom: 130px;
+  }
+  .service__box{
+    display: flex;
+    width: 753px;
+    align-items: center;
+  }
+  .service__hr{
+    width: 330px;
+    height: 1.5px;
+    background-color: #FDD6BA;
+    border: 0;
+  }
+  .service__name{
+    color: #FDD6BA;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+  }
+  .service__supname{
+    color: #333D4B;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; 
+    width: 250px;
+  }
+  .service__text{
+    color: #333D4B;
+    font-family: 'Barlow',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 285px;
+    padding-bottom: 15px;
+  }
+  .service__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+  .service__item:hover{
+    background-color: rgb(209, 204, 204);
+  }
+  .service__btn{
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    border-radius: 6px;
+    background: #0E8784;
+    width: 217px;
+    height: 56px;
+    border: 0;
+    margin-top: 15px;
+  }
+  .service__btn:hover{
+    background-color: rgb(175, 174, 174);
+    color: black;
+  }
+  /* --------------------------------------------------------------------footer------------------------------------------------------------- */
+  .footer__link{
+    color: #83888F;
+    font-family: 'Barlow',sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    text-decoration: none;
+  }
+  .footer__list{
+    list-style: none;
+    display: flex;
+    width: 283px;
+    justify-content: space-between;
+  }
+  .footer__container{
+    display: flex;
+    justify-content: space-between   ;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .footer__link:hover{
+    color: white;
+  }
+  .footer{
+    background-color: #2C343E;
+  }
+  /* ------------------------------------------------------------------about-hero--------------------------------------------------------------- */
+  .about-hero__tittle{
+    color: #FEFCF7;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    padding-top: 130px;
+  }
+  .about-hero__text{
+    color: #FEFCF7;
+    font-family: 'Barlow',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 445px;
+    line-height: 26px;
+    padding-bottom: 130px;
+  }
+  .about-hero{
+    background-image: url(../image/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  /* ----------------------------------------------------------------------about-main-------------------------------------------- */
+  .about-main__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+  .about-main__tittle{
+    color: #333D4B;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+  }
+  .about-main__text{
+    color: #333D4B;
+    font-family: 'Barlow',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 540px;
+  }
+  .about-main__img{
+    border-radius: 8px;
+  }
+  /* ------------------------------------------------------------about-page------------------------------------------------------- */
+  .about-page{
+    background-color: #2C343E;
+    border-radius: 10px;
+  }
+  .about-page__tittle{
+    color: #FEFCF7;
+    font-family: 'Fraunces sans'sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    padding-top: 130px;
+
+  }
+  .about-page__text{
+    color: #FEFCF7;
+    font-family: 'Barlow',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 540px;
+    opacity: 0.8;
+    padding-bottom: 180px;
+  }
+  .about-page__container{
+    position: relative;
+  }
+  .about-page__pic{
+    position: absolute;
+    border-radius: 8px;
+    top: -75px;
+    right: 0;
+  }
+  /* .-------------------------------------------------------------------about-service-------------------------------------------- */
+  .about-service__name{
+    color: #83888F;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; 
+    padding-bottom: 70px;
+  }
+  .about-service__tittle{
+    color: #333D4B;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; 
+  }
+  .about-service__text{
+    color: #333D4B;
+    font-family: 'Barlow',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .about-service__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-service__container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .about-service__item:hover{
+    opacity: 0.5;
+  }
+  /* ------------------------------------------------------------------------------plan-main------------------------------------------ */
+  .plan-main__tittle{
+    color: #FEFCF7;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 72px;
+    font-style: normal; 
+    font-weight: 900;
+    line-height: 72px; 
+    padding-top: 100px;
+  }
+  .plan-main{
+    background-image: url(../image/cofee.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .plan-main__text{
+    color: #FEFCF7;
+    font-family: 'Barlow',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 445px;
+    opacity: 0.8;
+    padding-bottom: 120px;
+  }
+  /* ---------------------------------------------------------------------------------plan-hero------------------------------------------------ */
+  .plan-hero__hr{
+    width: 350px;
+    height: 1px;
+    background-color: #FDD6BA;
+    border: 0;
+  }
+  .plan-hero__wrap{
+    width: 793px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+  }
+  .plan-hero__name{
+    color: #FDD6BA;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; 
+    padding-top: 50px;
+  }
+  .plan-hero__supname{
+    color: #FEFCF7;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; 
+    width: 200px;
+    padding-bottom: 15px;
+  }
+  .plan-hero__text{
+    color: #FEFCF7;
+    font-family: 'Barlow',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 285px;
+    opacity: 0.7;
+    padding-bottom: 60px;
+  }
+  .plan-hero{
+    margin-top: 100px;
+    background-color: #2C343E;
+  }
+  .plan-hero__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .plan-hero__item:hover{
+    opacity: 0.5;
+  }
+  /* -------------------------------------------------------------------------plan-page------------------------------------------------ */
+  .name{
+    color: #83888F;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+  }
+  .number{
+    color: #83888F;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    padding-right: 10px;
+  }
+  .name:hover{
+    color: #333D4B;
+  }
+  .number:hover{
+    color: #0E8784;
+  }
+  .plan-box-row{
+    display: flex;
+    align-items: center;
+  }
+  .plan-page__hr{
+    height: 1px;
+    opacity: 0.25;
+    background: #83888F;
+    border: 0;
+  }
+  .plan-page__box{
+    width: 255px;
+  }
+  .plan-page__tittle{
+    color: #83888F;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; 
+  }
+  .plan-page__list{
+    list-style: none;
+    width: 730px;
+  }
+  .plan-page__container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    align-items: center;
+    padding-bottom: 150px;
+  }
+  .plan-page__item{
+    display: flex;
+    align-items: center;
+    width: 730px;
+    justify-content: space-between;
+  }
+  .plan-page__button{
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Fraunces sans',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    width: 217px;
+    height: 56px;
+    border-radius: 6px;
+    background: #0E8784;
+    border: 0;
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+  }
+  .plan-page__button:hover{
+    background-color: grey;
+    color: black;
+  }
+
+
